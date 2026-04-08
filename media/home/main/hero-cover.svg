@@ -1,0 +1,14 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Hero placeholder</title>
+  <desc id="desc">Main hero image placeholder</desc>
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5bb6a"/>
+      <stop offset="100%" stop-color="#4ab2a1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" fill="url(#g1)"/>
+  <circle cx="220" cy="180" r="130" fill="#ffffff" fill-opacity="0.35"/>
+  <circle cx="980" cy="520" r="180" fill="#ffffff" fill-opacity="0.2"/>
+  <rect x="140" y="270" width="920" height="260" rx="24" fill="#ffffff" fill-opacity="0.25"/>
+</svg>
