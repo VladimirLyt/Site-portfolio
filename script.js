@@ -60,3 +60,14 @@ autoGrowTextareas.forEach((textarea) => {
   resize();
   textarea.addEventListener("input", resize);
 });
+
+const feedbackForm = document.querySelector(".feedback-form");
+const feedbackSuccess = document.querySelector(".feedback-success");
+
+if (feedbackForm && feedbackSuccess) {
+  feedbackForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    feedbackForm.hidden = true;
+    feedbackSuccess.hidden = false;
+  });
+}

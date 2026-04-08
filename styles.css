@@ -627,6 +627,18 @@ h2 {
   cursor: pointer;
 }
 
+.feedback-success {
+  max-width: 540px;
+  padding: 28px 0 8px;
+}
+
+.feedback-success p {
+  margin: 0;
+  font-size: clamp(2rem, 3vw, 3rem);
+  line-height: 1.05;
+  font-weight: 600;
+}
+
 .site-footer {
   background: var(--footer-bg);
   color: #fff;
